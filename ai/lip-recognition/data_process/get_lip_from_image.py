@@ -5,9 +5,9 @@ import cv2
 import dlib
 import numpy as np
 
-PREDICTOR_PATH = "../data/shape_predictor_68_face_landmarks.dat"
+PREDICTOR_PATH = "data/shape_predictor_68_face_landmarks.dat"
 predictor = dlib.shape_predictor(PREDICTOR_PATH)
-CASCADE_PATH = "../data/haarcascade_frontalface_default.xml"
+CASCADE_PATH = "data/haarcascade_frontalface_default.xml"
 cascade = cv2.CascadeClassifier(CASCADE_PATH)
 
 
